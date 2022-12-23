@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3>//Q1.Write the code to access element which is having id as "text"</h3>
+    <div id="text"> hello </div>
+    
+    
+
+  <h3>//Q2.Write the code to access element which is having tag as "h1"</h3>
+<h1>hi everyone,have a good day</h1>
+    
+    <br>
+    <h3>//Q3.Write the code to access element which is having class as "box"</h3>
+    <div class="box">hii I am Aparna</div>
+    <br>
+
+    <h3>//Q4." (h1)Hello(/h1) Change the heading from ""Hello"" to ""Hello World"" using DOM functions"</h3>
+
+<h1>Hello World</h1> <br>
+
+<h3>//Q5.Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.
+</h3>
+<div id="flex-box">
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+</div>
+
+<button onclick="direction()">change flex direction</button>
+<br>
+<h3>//Q6.What’s the difference between window vs document?
+</h3>
+<p>Window object : It is the top most object and outermost element of the object hierarchy .The window object represents a window/tab containing a DOM document</p>
+<p>Document object : Each HTML document that gets loaded into a window becomes a document object. The document contains the contents of the page. Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page.document object is property of window object that points to the DOM document loaded in that window.</p>
+<br>
+     <h1>//Q7." (h1)Hello(/h1) Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"
+     </h1>
+    <h1 style="color: blue;">Hello</h1>
+    <br>
+    <h1>//Q8.Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"
+    </h1>
+    <div id="world">hello world</div><br>
+    <button id="btn" onclick="changingtext()">Replace text</button><br>
+
+  
+    <br>
+    Q9.
+    <div>
+        <span id="hrs"></span>
+        <span>:</span>
+        <span id="mins"></span>
+        <span>:</span>
+        <span id="secs"></span>
+        <span id="ampm"></span>
+    </div>
+<br>
+
+     <h1>//Q10.Create a select drop down for selecting Year 20-21, 21-22 etc. Print the item text selected
+    </h1>
+<select id="year">
+    <option value="2021-2022">2021 - 2022</option>
+    <option value="2022-2023">2022 - 2023</option>
+    <option value="2023-2024">2023 - 2024</option>
+    <option value="2024-2025">2024 - 2025</option>
+    <option value="2025-2026">2025 - 2026</option>
+</select>
+<br><br>
+<button onclick="sub()" id="sub">submit</button>
+  <br> <br>
+<div id="selected-year"></div>
+
+
+    <script src="./index.js"></script>
+
+   
+</body>
+</html>
